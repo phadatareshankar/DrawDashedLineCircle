@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE957FD1F9DA4CB0017D762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE957FC1F9DA4CB0017D762 /* AppDelegate.swift */; };
+		BAE957FF1F9DA4CB0017D762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE957FE1F9DA4CB0017D762 /* ViewController.swift */; };
+		BAE958021F9DA4CB0017D762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE958001F9DA4CB0017D762 /* Main.storyboard */; };
+		BAE958051F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAE958031F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodeld */; };
+		BAE958071F9DA4CB0017D762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE958061F9DA4CB0017D762 /* Assets.xcassets */; };
+		BAE9580A1F9DA4CB0017D762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE958081F9DA4CB0017D762 /* LaunchScreen.storyboard */; };
+		BAE958151F9DA4CB0017D762 /* DrawDashedLineCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE958141F9DA4CB0017D762 /* DrawDashedLineCircleTests.swift */; };
+		BAE958201F9DA4E50017D762 /* ProgressingDashedLineCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9581F1F9DA4E50017D762 /* ProgressingDashedLineCircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE958111F9DA4CB0017D762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE957F11F9DA4CB0017D762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE957F81F9DA4CB0017D762;
+			remoteInfo = DrawDashedLineCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE957F91F9DA4CB0017D762 /* DrawDashedLineCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDashedLineCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE957FC1F9DA4CB0017D762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE957FE1F9DA4CB0017D762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE958011F9DA4CB0017D762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE958041F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawDashedLineCircle.xcdatamodel; sourceTree = "<group>"; };
+		BAE958061F9DA4CB0017D762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE958091F9DA4CB0017D762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE9580B1F9DA4CB0017D762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE958101F9DA4CB0017D762 /* DrawDashedLineCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawDashedLineCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE958141F9DA4CB0017D762 /* DrawDashedLineCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDashedLineCircleTests.swift; sourceTree = "<group>"; };
+		BAE958161F9DA4CB0017D762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE9581F1F9DA4E50017D762 /* ProgressingDashedLineCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressingDashedLineCircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE957F61F9DA4CB0017D762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE9580D1F9DA4CB0017D762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE957F01F9DA4CB0017D762 = {
+			isa = PBXGroup;
+			children = (
+				BAE957FB1F9DA4CB0017D762 /* DrawDashedLineCircle */,
+				BAE958131F9DA4CB0017D762 /* DrawDashedLineCircleTests */,
+				BAE957FA1F9DA4CB0017D762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE957FA1F9DA4CB0017D762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE957F91F9DA4CB0017D762 /* DrawDashedLineCircle.app */,
+				BAE958101F9DA4CB0017D762 /* DrawDashedLineCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE957FB1F9DA4CB0017D762 /* DrawDashedLineCircle */ = {
+			isa = PBXGroup;
+			children = (
+				BAE9581F1F9DA4E50017D762 /* ProgressingDashedLineCircleView.swift */,
+				BAE957FC1F9DA4CB0017D762 /* AppDelegate.swift */,
+				BAE957FE1F9DA4CB0017D762 /* ViewController.swift */,
+				BAE958001F9DA4CB0017D762 /* Main.storyboard */,
+				BAE958061F9DA4CB0017D762 /* Assets.xcassets */,
+				BAE958081F9DA4CB0017D762 /* LaunchScreen.storyboard */,
+				BAE9580B1F9DA4CB0017D762 /* Info.plist */,
+				BAE958031F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodeld */,
+			);
+			path = DrawDashedLineCircle;
+			sourceTree = "<group>";
+		};
+		BAE958131F9DA4CB0017D762 /* DrawDashedLineCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE958141F9DA4CB0017D762 /* DrawDashedLineCircleTests.swift */,
+				BAE958161F9DA4CB0017D762 /* Info.plist */,
+			);
+			path = DrawDashedLineCircleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE957F81F9DA4CB0017D762 /* DrawDashedLineCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE958191F9DA4CB0017D762 /* Build configuration list for PBXNativeTarget "DrawDashedLineCircle" */;
+			buildPhases = (
+				BAE957F51F9DA4CB0017D762 /* Sources */,
+				BAE957F61F9DA4CB0017D762 /* Frameworks */,
+				BAE957F71F9DA4CB0017D762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawDashedLineCircle;
+			productName = DrawDashedLineCircle;
+			productReference = BAE957F91F9DA4CB0017D762 /* DrawDashedLineCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE9580F1F9DA4CB0017D762 /* DrawDashedLineCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE9581C1F9DA4CB0017D762 /* Build configuration list for PBXNativeTarget "DrawDashedLineCircleTests" */;
+			buildPhases = (
+				BAE9580C1F9DA4CB0017D762 /* Sources */,
+				BAE9580D1F9DA4CB0017D762 /* Frameworks */,
+				BAE9580E1F9DA4CB0017D762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE958121F9DA4CB0017D762 /* PBXTargetDependency */,
+			);
+			name = DrawDashedLineCircleTests;
+			productName = DrawDashedLineCircleTests;
+			productReference = BAE958101F9DA4CB0017D762 /* DrawDashedLineCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE957F11F9DA4CB0017D762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Shankar Phadatare";
+				TargetAttributes = {
+					BAE957F81F9DA4CB0017D762 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BAE9580F1F9DA4CB0017D762 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAE957F81F9DA4CB0017D762;
+					};
+				};
+			};
+			buildConfigurationList = BAE957F41F9DA4CB0017D762 /* Build configuration list for PBXProject "DrawDashedLineCircle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE957F01F9DA4CB0017D762;
+			productRefGroup = BAE957FA1F9DA4CB0017D762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE957F81F9DA4CB0017D762 /* DrawDashedLineCircle */,
+				BAE9580F1F9DA4CB0017D762 /* DrawDashedLineCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE957F71F9DA4CB0017D762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE9580A1F9DA4CB0017D762 /* LaunchScreen.storyboard in Resources */,
+				BAE958071F9DA4CB0017D762 /* Assets.xcassets in Resources */,
+				BAE958021F9DA4CB0017D762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE9580E1F9DA4CB0017D762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE957F51F9DA4CB0017D762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE957FF1F9DA4CB0017D762 /* ViewController.swift in Sources */,
+				BAE958201F9DA4E50017D762 /* ProgressingDashedLineCircleView.swift in Sources */,
+				BAE957FD1F9DA4CB0017D762 /* AppDelegate.swift in Sources */,
+				BAE958051F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE9580C1F9DA4CB0017D762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE958151F9DA4CB0017D762 /* DrawDashedLineCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE958121F9DA4CB0017D762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE957F81F9DA4CB0017D762 /* DrawDashedLineCircle */;
+			targetProxy = BAE958111F9DA4CB0017D762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE958001F9DA4CB0017D762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE958011F9DA4CB0017D762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE958081F9DA4CB0017D762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE958091F9DA4CB0017D762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE958171F9DA4CB0017D762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE958181F9DA4CB0017D762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE9581A1F9DA4CB0017D762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawDashedLineCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.DrawDashedLineCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE9581B1F9DA4CB0017D762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawDashedLineCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.DrawDashedLineCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE9581D1F9DA4CB0017D762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawDashedLineCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.DrawDashedLineCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawDashedLineCircle.app/DrawDashedLineCircle";
+			};
+			name = Debug;
+		};
+		BAE9581E1F9DA4CB0017D762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrawDashedLineCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp.DrawDashedLineCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawDashedLineCircle.app/DrawDashedLineCircle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE957F41F9DA4CB0017D762 /* Build configuration list for PBXProject "DrawDashedLineCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE958171F9DA4CB0017D762 /* Debug */,
+				BAE958181F9DA4CB0017D762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE958191F9DA4CB0017D762 /* Build configuration list for PBXNativeTarget "DrawDashedLineCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE9581A1F9DA4CB0017D762 /* Debug */,
+				BAE9581B1F9DA4CB0017D762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE9581C1F9DA4CB0017D762 /* Build configuration list for PBXNativeTarget "DrawDashedLineCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE9581D1F9DA4CB0017D762 /* Debug */,
+				BAE9581E1F9DA4CB0017D762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAE958031F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAE958041F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodel */,
+			);
+			currentVersion = BAE958041F9DA4CB0017D762 /* DrawDashedLineCircle.xcdatamodel */;
+			path = DrawDashedLineCircle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAE957F11F9DA4CB0017D762 /* Project object */;
+}
